@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Tajawal", ui-sans-serif, system-ui, sans-serif;
+  --color-ramadan-green: #1B4332;
+  --color-ramadan-gold: #D4AF37;
+  --color-ramadan-cream: #F8F4E3;
+  --color-ramadan-dark: #081C15;
+}
+
+body {
+  @apply bg-ramadan-cream dark:bg-slate-950 text-ramadan-dark dark:text-white transition-colors duration-500;
+  font-family: var(--font-sans);
+  direction: rtl;
+}
+
