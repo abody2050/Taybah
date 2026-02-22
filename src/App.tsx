@@ -220,7 +220,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen pb-20 font-sans selection:bg-ramadan-gold/30">
+    <div className="min-h-screen pb-20 font-sans selection:bg-ramadan-gold/30 bg-ramadan-cream text-ramadan-dark">
       {/* Header */}
       <header className="bg-ramadan-green text-ramadan-cream p-6 rounded-b-[2rem] shadow-xl relative overflow-hidden">
         <div className="absolute top-0 right-0 w-32 h-32 bg-ramadan-gold/10 rounded-full -mr-16 -mt-16 blur-2xl" />
